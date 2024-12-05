@@ -1,0 +1,273 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+  color: hsl(232, 100%, 34%);
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-right: 130px;
+}
+
+.searched-movie {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.search-container p:hover {
+  background-color: rgb(113, 191, 247);
+}
+
+.poster-image {
+  width: 170px;
+  height: auto;
+}
+
+.container {
+  overflow: auto;
+  background-size: cover;
+}
+
+nav {
+  margin-top: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  border: solid;
+  border-width: 1px 1px 0 1px;
+  margin: 0 5px 0 0;
+}
+
+.search-container input {
+  margin-right: 10px;
+  height: 40px; /* Match height with the button */
+  padding: 0 10px; /* Adjust padding for better appearance */
+  font-size: 16px;
+}
+
+.search-container button {
+  padding: 0.5rem 1rem;
+  background-color: rgb(45, 93, 214);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  height: 40px; /* Ensure button matches the input box height */
+}
+
+.search-container button:hover {
+  background-color: transparent;
+  color: rgb(95, 95, 232);
+  border: 2px solid blue;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adds space between pagination elements */
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:last-child {
+  margin-right: 0;
+}
+
+.poster-image {
+  width: 170px;
+  height: auto;
+  transition: transform 0.10s ease;
+}
+
+.poster-image.clicked {
+  transform: scale(1.1) rotatex(20deg);
+}
+
+.poster-image:hover {
+  transform: scale(1.05);
+}
+
+.movie-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 200px;
+  margin-bottom: 200px;
+}
+
+.poster-image {
+  width: 170px;
+  height: auto;
+  transition: transform 2.10s ease;
+}
+
+.poster-image.clicked {
+  transform: scale(9.1) rotatex(200deg);
+}
+
+.poster-image:hover {
+  transform: scale(1.05);
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.movie-details p {
+  margin: 5px 0;
+}
+
+.movie-details .overview {
+  max-height: 120px;
+  overflow-y: auto;
+}
+
+.movie-details .release-date,
+.movie-details .popularity,
+.movie-details .rating {
+  font-weight: bold;
+}
+
+.cast-and-videos-container {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.cast-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.videos-container {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.videos, .cast {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-item, .cast-item {
+  flex: 1 1 calc(33.33% - 10px);
+  box-sizing: border-box;
+}
+
+.video-item iframe {
+  width: 50%;
+  height: 300px;
+}
+
+.cast-item img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.cast-item h3, .cast-item p {
+  text-align: center;
+}
+
+.cast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.cast-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+}
+
+.cast-image-container {
+  margin-bottom: 10px;
+}
+
+.cast-image {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cast-details {
+  padding: 10px;
+}
+
+.cast h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.cast p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.cast-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.cast-card {
+  width: 200px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.actor-name {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.character-name {
+  font-size: 160px;
+  color: #bbb;
+}

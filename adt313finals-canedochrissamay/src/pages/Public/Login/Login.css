@@ -1,0 +1,101 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('login-register-image\ 3.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+.form-container {
+  padding: 4rem 5rem;
+  border: 5px solid #ffffff;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(86, 98, 138, 0.814);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(95, 0, 179, 0.2);
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-container h3 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  align-self: flex-start;
+}
+
+.form-container > div {
+  margin-bottom: 12rem;
+}
+
+.form-group label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.errors {
+  color: red;
+  font-size: 14px;
+}
+
+.submit-container button {
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.submit-container button:hover {
+  background-color: #ffffff;
+}
+
+.register-container {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.show-password {
+  margin-top: 1rem;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.show-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    justify-content: center;
+  }
+
+  .form-container {
+    padding: 2rem 1rem;
+    max-width: 90%;
+  }
+}
