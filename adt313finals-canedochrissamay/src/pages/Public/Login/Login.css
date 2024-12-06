@@ -19,7 +19,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgba(86, 98, 138, 0.814);
+  background-color: rgba(160, 211, 233, 0.516);
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 8px rgba(95, 0, 179, 0.2);
   text-align: left;
@@ -27,10 +27,15 @@
   max-width: 400px;
 }
 
-.form-container h3 {
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  align-self: flex-start;
+h3 {
+  
+  text-align: center;
+  font-size: 50px;
+  color: hsl(233, 16%, 11%);
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding-right: 130px;
+  align-items: center;
 }
 
 .form-container > div {
@@ -57,7 +62,7 @@
 
 .submit-container button {
   margin-top: 1rem;
-  padding: 0.8rem 1.5rem;
+  padding: 8rem 1.5rem;
   font-size: 1.2rem;
   color: #ffffff;
   background-color: #007bff;
