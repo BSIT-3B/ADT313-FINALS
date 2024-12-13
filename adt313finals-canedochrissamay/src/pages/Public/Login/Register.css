@@ -113,20 +113,20 @@
   }
 }
 .form-actions {
-  text-align: center; /* Center-align the content */
-  margin-top: 20px;   /* Add spacing above */
+  text-align: center; 
+  margin-top: 20px;  
 }
 
 .register-button {
   display: inline-block;
-  margin-bottom: 15px; /* Space below the button */
-  padding: 10px 20px;  /* Button padding */
+  margin-bottom: 15px; 
+  padding: 10px 20px;  
   font-size: 16px;
   cursor: pointer;
 }
 
 .login-link {
   font-size: 14px;
-  margin-bottom: 10px; /* Space between the button and text */
+  margin-bottom: 10px; 
 }
 
