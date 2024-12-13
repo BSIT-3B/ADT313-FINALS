@@ -6,7 +6,7 @@
   font-family: 'Arial', sans-serif;
 }
 
-/* Header section with poster and details */
+/* Header section na may poster */
 .View-header {
   display: flex;
   gap: 20px;
@@ -14,7 +14,6 @@
   margin-bottom: 30px;
 }
 
-/* Poster styling */
 .View-poster {
   width: 300px;
   border-radius: 10px;
@@ -36,7 +35,7 @@
   line-height: 1.6;
 }
 
-/* Sections (Cast, Videos, Photos) */
+
 .View-sections {
   margin-top: 20px;
 }
@@ -47,7 +46,7 @@
   margin-bottom: 15px;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   .View-header {
     flex-direction: column;
